@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(void)
+{
+   double panel=12,power=23,volts=34;
+   double inverter=panel*power;
+   printf("
+Inverter capacity: %.4f",inverter);
+    
+   double battery = (inverter)/volts;
+   printf("
+Battery charge time: %.4f",battery);
+   return 0;
+}
